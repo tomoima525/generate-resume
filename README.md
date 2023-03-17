@@ -2,6 +2,23 @@ Test Chat-GPT to generate a resume in pdf
 
 # Prompt
 
+- First, create a base information
+
+```
+Can you rewrite this sentence without showing exact company or product names?
+
+
+Tomo has 10+ years of experience in full-stack development. Expertise in blockchain technologies, including Ethereum(Solidity), cryptography, and Zero Knowledge Proof. He was one of the first devs at Mercari US, a $2.5B value second-hand marketplace app. He was a mentor at ZK University and received a prize from ZK-focused L1 blockchain Mina Protocol at ETH San Francisco hackathon in 2022.
+```
+
+- Then ask in PDF format
+
+```
+ I want create a resume in PDF using this text. Can you create a prompt to generate that?
+```
+
+- Then generate a script to create a PDF
+
 ```
 Using the information below, create a script in TypeScript to generate a resume in pdf using pdf-lib
 

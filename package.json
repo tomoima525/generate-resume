@@ -42,5 +42,10 @@
     ],
     "coverageDirectory": "../coverage",
     "testEnvironment": "node"
+  },
+  "dependencies": {
+    "node-fetch": "2",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.13.0"
   }
 }

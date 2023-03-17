@@ -1,9 +1,6 @@
+import { generateResume } from './gen-resume-5';
 
-async function main(): Promise<void> {
-  await new Promise(resolve => resolve(true));
-}
-
-main().then(
+generateResume().then(
   () => process.exit(),
   err => {
     console.error(err);
